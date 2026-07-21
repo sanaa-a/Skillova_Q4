@@ -1,0 +1,70 @@
+## 1. Introduction
+
+For this assessment, I created a simple website analytics dashboard using Grafana Cloud. The goal was to take a CSV file containing one week of website data and turn it into a dashboard that is easier to understand than looking at raw data in a spreadsheet.
+
+The dataset was created my AI and it contains three columns: Date, Page Views, and Signups. I used this data to create two visualizations as required.
+
+## 2. The Problem
+
+The website data was originally stored in a CSV file. While this is useful for storing data, it is not always easy to quickly understand trends by looking at rows of numbers.
+
+For example, a business owner may want to know if website traffic is increasing or how many users signed up during the week. 
+They would have to manually look through the data or calculate the total.
+
+
+## 3. Solution
+
+I used Grafana Cloud to create a dashboard using the website analytics data. I uploaded the csv file and selected which columns for each panel. 
+Before the panels work, all columns must have specified data types. 
+
+The dashboard contains exactly two panels:
+
+### Page Views Over Time
+
+The first panel is a line chart showing Page Views across the seven days. 
+I chose a line chart because it makes it easier to see if the values increase or decrease.
+
+### Total Signups
+
+The second panel is a Stat panel showing the total number of Signups. 
+The total number of signups in the dataset is 442. Using a Stat panel I used the total settings so we didnt have to calculate manually. 
+
+## 4. Implementation
+
+The main steps I followed were:
+
+1. Created a CSV file containing one week of website analytics data.
+2. Set up a Grafana Cloud environment.
+3. Connected the website analytics data to Grafana Cloud.
+4. Configured the data so the Date, Page Views, and Signups fields were read correctly.
+5. Created a new Grafana dashboard.
+6. Added a line chart for Page Views over time.
+7. Added a Stat panel for Total Signups.
+8. Checked the dashboard values against the original CSV data.
+9. Exported the completed dashboard as a JSON file.
+
+One of the main things I had to figure out was how to get the CSV data working correctly with Grafana Cloud. 
+I also had to make sure the different fields were interpreted correctly so that the dates could be used for the line chart 
+and the numerical values could be used in the visualizations. 
+
+## 5. Results
+
+The final dashboard successfully displays the website analytics data in a more visual format.
+
+The Page Views line chart makes it easier to see how website traffic changes throughout the week, while the Stat panel clearly shows the total number of Signups.
+
+The dashboard contains the two required panels. I also exported the dashboard configuration as a JSON file, which is included with the project files.
+
+## 6. Why Use a Dashboard?
+
+A CSV or Excel file is useful for storing raw data, but a dashboard makes the information easier to understand quickly.
+
+Instead of manually comparing Page Views for each day, a user can look at the line chart and immediately see the overall trend. The Stat panel also provides the total number of Signups without requiring any manual calculations.
+
+For a business owner, this makes it easier to quickly understand the website's performance and identify useful information without having to analyze the raw data themselves.
+
+## 7. Conclusion
+
+This project helped me understand the basic process of taking raw data and turning it into a visual dashboard using Grafana Cloud.
+
+I learned that creating a dashboard is not just about choosing graphs. The data also needs to be connected and configured correctly before it can be visualized. I also learned that different visualizations are useful for different types of data.
