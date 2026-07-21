@@ -1,1 +1,18 @@
+Q4
+
+[5:45 PM] After understanding the question, I went to youtube straight away as its my first time working with Grafana. 
+Got AI to generate the csv file for me. And signed up for my Grafana Cloud account. 
+
+[5:55PM] I learned that Grafana dashboards use data sources to retrieve data and then
+visualize that data through panels. I also learned that CSV data can be used with Grafana, 
+but I need to figure out the best way to make my CSV available to Grafana Cloud.
+
+[6:10PM] I finished the 2 requirements. A stats box and line graph. 
+I uploaded the csv and used the infinity as recommended by Grafana AI. And it helped me through the steps. 
+I experimented with some colour and different settings. One issue I faced was my stats weren't showing as I didn't set the column type to number.
+Also I realized I need to set the column type for every column for it to work. 
+And The format needs to be correct too as the "table" format didn't work for stat and the DataFrame. 
+Visual dashboards are easier because it shows actual trends of the data instead of trying to analyse by themselves looking at numbers. 
+
+[6:30] Finished with the log and report, and will make the repo now. 
 
